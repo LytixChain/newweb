@@ -501,7 +501,7 @@ ul.social-icons.white li a:focus{
    border-radius: 0;
 }
 .btnprimary, .btnprimary-alt{
-    background: #00bcd4;
+    background: transparent;
 }
 .btnsecondary{
    background: #643094;
@@ -527,8 +527,8 @@ ul.social-icons.white li a:focus{
     margin-top: -3px;
 }
 .btnprimary:hover, .btnprimary:focus{
-   background: #643094;
-   border: 1px solid #643094;
+   background: transparent;
+
 }
 .btnprimary-alt:hover, .btnprimary-alt:focus {
    background: transparent;
@@ -949,17 +949,7 @@ i::before,i::after{
     opacity: 0.9;
 }
 
-/*-----dropdown menu----*/
-.btn-primary,
-.btn-primary:hover,
-.dropdown-menu {
-  background: none;
-  border: none;
-  font-size: 18px;
-}
-.dropdown-menu {
-  color: white;
-    }
+
 
 /*-----Side Menu----*/
 .side-menu {
