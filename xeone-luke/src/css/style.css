@@ -4419,6 +4419,10 @@ footer .copyrights > a:focus {
    font-weight:400
 }
 
+/* ----------------------------------------------------------------------
+	Progress Title
+-------------------------------------------------------------------------*/
+
 /* Smarthphones (320px and up) */
 @media (min-width: 320px) {
    .progress-title {
@@ -4449,6 +4453,10 @@ footer .copyrights > a:focus {
    }
  }
 
+ /* ----------------------------------------------------------------------
+	Button Link
+-------------------------------------------------------------------------*/
+
  /* Smarthphones (320px and up) */
 @media (min-width: 320px) {
    .btn-link {
@@ -4478,51 +4486,3 @@ footer .copyrights > a:focus {
       font-weight: 600;
    }  
  }
-
- /* -------- Custom Social Icons ------ */
- .social-icons-slide {
-   letter-spacing: 1.2em;
-   height: 36px;
-   line-height: 36px;
-   width: 36px;
-   font-size: 17px;
-   font-weight: 600;
-   -webkit-border-radius: 50%;
-   border-radius: 50%;
-   margin: 0.5rem 0.5rem;
-   text-align: center;
-   display: block;
-   color: #fff;
-   
- }
- .social-icons-slide a:hover, 
- .social-icons-slide a:focus{
-   color: #00acee;
-}
-
-.social-icons-slide{
-   display: inline-block;
-}
-
-.social-icons-slide-secondary {
-   letter-spacing: 1.2em;
-   height: 36px;
-   line-height: 36px;
-   width: 36px;
-   font-size: 17px;
-   font-weight: 600;
-   -webkit-border-radius: 50%;
-   border-radius: 50%;
-   margin: 0 18.5rem;
-   text-align: center;
-   display: block;
-   color: #fff;
- }
- .social-icons-slide-secondary a:hover, 
- .social-icons-slide-secondary a:focus{
-    color: #00bcd4;
-}
-
-.social-icons-slide-secondary{
-   display: inline-block;
-}
