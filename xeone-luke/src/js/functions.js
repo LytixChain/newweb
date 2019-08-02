@@ -992,6 +992,10 @@ $("#submit_btn").click(function() {
 
 });
 
+$(function(){
+   $('.selectpicker').selectpicker();
+});
+
 /*
 jQuery(function () {
    jQuery("#bgndVideo").vimeo_player();

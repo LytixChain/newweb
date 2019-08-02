@@ -793,7 +793,8 @@ i::before,i::after{
 .navbar.fixedmenu .logo-default,
 .navbar  .logo-scrolled{
    display: none;
-   width: 50%;
+   /* width: 50%; */
+   width: 65%;
 }
 .navbar.fixedmenu .logo-scrolled,
 .navbar .logo-default{
@@ -827,7 +828,8 @@ i::before,i::after{
    padding: 8px 1.25rem !important;
    font-weight: 500;
    text-transform: capitalize;
-   font-size: 14px;
+   /* font-size: 14px; */
+   font-size: 18px;
    color: #212331;
    position: relative;
    -webkit-border-radius: 20px;
@@ -3221,7 +3223,7 @@ iframe  {
 }
 #partners-slider .logo-item {
 	width: 160px;
-    height: 60px;
+   height: 160px;
 	overflow: hidden;
 }
 #partners-slider .logo-item, #partners-slider  .logo-item > img{
@@ -4417,6 +4419,10 @@ footer .copyrights > a:focus {
    font-weight:400
 }
 
+/* ----------------------------------------------------------------------
+	Progress Title
+-------------------------------------------------------------------------*/
+
 /* Smarthphones (320px and up) */
 @media (min-width: 320px) {
    .progress-title {
@@ -4447,6 +4453,10 @@ footer .copyrights > a:focus {
    }
  }
 
+ /* ----------------------------------------------------------------------
+	Button Link
+-------------------------------------------------------------------------*/
+
  /* Smarthphones (320px and up) */
 @media (min-width: 320px) {
    .btn-link {
@@ -4476,5 +4486,3 @@ footer .copyrights > a:focus {
       font-weight: 600;
    }  
  }
-
-
