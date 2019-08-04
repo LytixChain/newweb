@@ -69,7 +69,7 @@ $("#submit_btn").click(function() {
 
 });
    $(document).on('contextmenu', function() {
-     return false;
+     return true;
    });
 
 
