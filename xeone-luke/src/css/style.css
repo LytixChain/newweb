@@ -4245,7 +4245,7 @@ footer .copyrights > a:focus {
  /* Extra large devices (large desktops, 1200px and up) */
  @media (min-width: 1200px) {
    .card-img-top {
-       height: 18vw;
+      height: 8vw;
    }
  }
 
