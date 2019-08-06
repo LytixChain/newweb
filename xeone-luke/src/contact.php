@@ -1,8 +1,8 @@
 <?php
 if($_POST)
 {
-    $to_Email   	= "admin@themes.ads"; //Replace with recipient email address
-    $subject        = 'XeOne - New Contact Inquiry'; //Subject line for emails
+    $to_Email   	= "www@lytixchain.org"; //Replace with recipient email address
+    $subject        = 'LytixChain Website - New Contact Inquiry'; //Subject line for emails
 
 
     //check if its an ajax request, exit if not
