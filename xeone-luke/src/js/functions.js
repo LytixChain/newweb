@@ -68,7 +68,13 @@ $("#submit_btn").click(function() {
     }
 
 });
+<<<<<<< HEAD
    
+=======
+   $(document).on('contextmenu', function() {
+     return true;
+   });
+>>>>>>> 05710c5cbf94ac4d7812516e88e1f25ce33eb371
 
 
 
